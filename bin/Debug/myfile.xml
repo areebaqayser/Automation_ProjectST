@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Automation>
+ <Execution>
+  <LoginWithValidUserValidPass>
+    <url>http://eaapp.somee.com/</url>
+    <login>Login</login>
+    <username>areebaqay</username>
+    <password>Aree@6</password>
+	<value>Hello areebaqay!</value>
+  </LoginWithValidUserValidPass>
+  
+  <LoginWithCheckboxChecked>
+    <url>http://eaapp.somee.com/</url>
+    <login>Login</login>
+    <username>areebaqay</username>
+    <password>Aree@6</password>
+	<value>Hello areebaqay!</value>
+  </LoginWithCheckboxChecked>
+  
+  <LoginWithInValidUserInValidPass>
+    <url>http://eaapp.somee.com/</url>
+    <login>Login</login>
+    <username>kkk</username>
+    <password>123</password>	
+	<errormsg>Invalid login attempt.</errormsg>
+  </LoginWithInValidUserInValidPass>
+  
+  <LoginWithEmptyFields>
+    <url>http://eaapp.somee.com/</url>
+    <login>Login</login>
+    <username></username>
+    <password></password>
+	<req1>The UserName field is required.</req1>
+	<req2>The Password field is required.</req2>
+  </LoginWithEmptyFields>
+  
+    <RegisterWithValidCredentials>
+	<url>http://eaapp.somee.com/</url>
+	<register>Register</register>
+	<username>TinaKhan</username>
+	<password>Tina@123</password>
+	<confirm>Tina@123</confirm>
+	<email>aina123@gmail.com</email>
+  </RegisterWithValidCredentials>
+  
+  <RegisterLeavingEmailfieldEmpty>
+   <url>http://eaapp.somee.com/</url>
+	<register>Register</register>
+	<username>TinaKhan</username>
+	<password>Tina@123</password>
+	<confirm>Tina@123</confirm>
+	<email></email>
+  </RegisterLeavingEmailfieldEmpty>
+  
+  <UserlogoutSuccessfully>
+	<url>http://eaapp.somee.com/</url>
+	<login>Login</login>
+	<username>areebaqay</username>
+	<password>Aree@6</password>
+	<logout>Log off</logout>
+  </UserlogoutSuccessfully>
+  
+  <SearchEmployeeSuccess>
+    <url>http://eaapp.somee.com/</url>
+	<employeelist>Employee List</employeelist>
+	<search>John</search>
+	<find>John Doe</find>
+  </SearchEmployeeSuccess>
+  
+  <SearchNonExistingEmployee>
+    <url>http://eaapp.somee.com/</url>
+	<employeelist>Employee List</employeelist>
+	<search>Olim</search>
+	<find></find> 
+  </SearchNonExistingEmployee>
+  
+  <RegisterLeavingUsernameEmpty>
+	<url>http://eaapp.somee.com/</url>
+	<register>Register</register>
+	<username></username>
+	<password>Aina@123</password>
+	<confirm>Aina@123</confirm>
+	<email>aina123@gmail.com</email>
+	<msg>The UserName field is required.</msg>
+  </RegisterLeavingUsernameEmpty>
+  
+  <PasswordChangesSuccessfully>
+    <url>http://eaapp.somee.com/</url>
+	<login>Login</login>
+	<username>areebaqay</username>
+	<password>Aree@6</password>
+	<value>Hello areebaqay!</value>
+	<changepass></changepass>
+	<current>Aree@6</current>
+	<newpass>Aree6@</newpass>
+	<confirm>Aree6@</confirm>
+  </PasswordChangesSuccessfully>
+  
+  <Setting_Single_Character_Password>
+    <url>http://eaapp.somee.com/</url>
+	<login>Login</login>
+	<username>areebaqay</username>
+	<password>Aree@6</password>
+	<value>Hello areebaqay!</value>
+	<current>Aree@6</current>
+	<newpass>A</newpass>
+	<confirm>A</confirm>
+  </Setting_Single_Character_Password>
+  
+  <ConfirmPass_And_NewPass_Unmatched>
+    <url>http://eaapp.somee.com/</url>
+	<login>Login</login>
+	<username>areebaqay</username>
+	<password>Aree@6</password>
+	<value>Hello areebaqay!</value>
+	<current>Aree6@</current>
+	<newpass>Aree66@</newpass>
+	<confirm>Aree6666@</confirm>
+  </ConfirmPass_And_NewPass_Unmatched>
+  
+  <RedirectToYoutubeChannel>
+    <url>http://eaapp.somee.com/</url>
+	<url2>https://www.youtube.com/executeautomation</url2>
+	<value>Execute Automation</value>
+	<yt>YouTube</yt>
+  </RedirectToYoutubeChannel>
+  
+  <RedirectToGithubPage>
+    <url>http://eaapp.somee.com/</url>
+	<url2>https://github.com/executeautomation</url2>
+	<git>Welcome to ExecuteAutomation Repo!</git>
+  </RedirectToGithubPage>
+  
+  <RedirectToUdemy>
+    <url>http://eaapp.somee.com/</url>
+	<url2>https://www.udemy.com/user/karthik-kk/</url2>
+	<value>Karthik KK</value>
+  </RedirectToUdemy>
+  
+  <CLickOnAboutPage>
+    <url>http://eaapp.somee.com/</url>
+	<abt>About</abt>
+  </CLickOnAboutPage>
+  
+  <CheckingEmployeeBenefit>
+    <url>http://eaapp.somee.com/</url>
+	<employeelist>Employee List</employeelist>
+  </CheckingEmployeeBenefit>
+
+ </Execution>
+</Automation>
